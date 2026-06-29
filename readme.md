@@ -197,19 +197,19 @@ Authorization: Bearer <access_token>
 Swagger UI:
 
 ```
-http://127.0.0.1:8000/api/docs/
+https://hospitalmgmt-qyc6.onrender.com/api/docs/
 ```
 
 ReDoc:
 
 ```
-http://127.0.0.1:8000/api/redoc/
+https://hospitalmgmt-qyc6.onrender.com/api/redoc/
 ```
 
 OpenAPI Schema:
 
 ```
-http://127.0.0.1:8000/api/schema/
+https://hospitalmgmt-qyc6.onrender.com/api/schema/
 ```
 
 ---
