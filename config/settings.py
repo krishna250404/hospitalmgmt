@@ -30,7 +30,11 @@ SECRET_KEY = 'django-insecure-!w(wgijutubfl5#aprrlu0vwz0ottpwh@_)jwj#m4*)4n9)o!n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    ".onrender.com",
+]
 
 
 # Application definition
@@ -149,3 +153,6 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "Backend API for Hospital Management System",
     "VERSION": "1.0.0",
 }
+
+STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
